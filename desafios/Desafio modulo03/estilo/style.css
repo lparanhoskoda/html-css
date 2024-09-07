@@ -1,21 +1,34 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Sriracha", system-ui;
+    --fonte3: "Lobster", sans-serif;
+}
+
+   
 *{margin: 0px;
 padding: 0px;}
 
 html, body{ background-color: darkseagreen;
     min-height: 100vh;   
+    font-family: var(--fonte1);
 
 }
 
 header{ background-color: black;
 color: white;
 text-align: center;
+font-family: var(--fonte2);
 }
 
 header > h1{
     padding-top: 50px;
     text-transform: uppercase; /* ou font-variant: small-caps;*/
+    font-size: 3.5em;
 
 }
 
@@ -37,6 +50,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
 }
 
 section.normal{
@@ -52,7 +66,8 @@ color: azure;
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.185);
     width: 400px;
-
+    display: inline-block;
+    padding: 4px;
 }
 
 footer{
