@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        table{width: 600px;
+        border-collapse: collapse;
+    position: relative;}
+        td, th{border: 1px solid black;
+        padding: 10px;}
+        thead, tfoot{background-color: gray; color: aliceblue;}
+        .numero3{background-image: linear-gradient(to right, white, rgb(0, 183, 255));}
+        .numero1{background-image: linear-gradient(to left, black, white, red)}
+        .numero2{background-image: linear-gradient(to right, white, red);}
+        td{text-align: left;}
+        td.num{text-align: right;}
+        caption{font-size:1.5em ;
+        font-weight: bold;
+    padding: 10px;
+background-color: lightcyan;}
+tbody > tr:nth-child(odd) {/*2n-1*/background-color: white;
+}
+tbody > tr:nth-child(even){/*2n*/background-color: rgba(128, 128, 128, 0.644);}
+thead > tr >th {position: sticky;
+top: -1px;
+background-color:gray ;}
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+<!--
+    ANATOMIA PARA AS TABELAS GRANDES
+    TABLE 
+        CAPTION -legenda
+        THEAD, TBODY, TFOOT - TR, TD, TH   
+    TR - TITULO(NOMES)
+    TD - DADOS(NUMEROS)
+-->
+<table>
+    <caption>População dos Estados</caption>
+<thead>
+    
+<tr>
+    <th>Estado</th>
+    <th style="width: 100PX;">População</th>
+</tr>
+</thead>
+<tbody>
+    
+    <tr>
+        <td class="numero1">São Paulo</td>
+        <td class="num">45 973 190</td>
+    </tr>
+    <tr>
+        <td class="numero2">Minas Gerais</td>
+        <td class="num">21 322 692</td>
+    </tr>
+    <tr>
+        <td class="numero3">Rio de Janeiro</td>
+        <td class="num">17 219 679</td>
+    </tr>
+    <tr>
+        <td class="numero1">São Paulo</td>
+        <td class="num">45 973 190</td>
+    </tr>
+    <tr>
+        <td class="numero2">Minas Gerais</td>
+        <td class="num">21 322 692</td>
+    </tr>
+    <tr>
+        <td class="numero3">Rio de Janeiro</td>
+        <td class="num">17 219 679</td>
+    </tr>
+    <tr>
+        <td class="numero1">São Paulo</td>
+        <td class="num">45 973 190</td>
+    </tr>
+    <tr>
+        <td class="numero2">Minas Gerais</td>
+        <td class="num">21 322 692</td>
+    </tr>
+    <tr>
+        <td class="numero3">Rio de Janeiro</td>
+        <td class="num">17 219 679</td>
+    </tr>
+    <tr>
+        <td class="numero1">São Paulo</td>
+        <td class="num">45 973 190</td>
+    </tr>
+    <tr>
+        <td class="numero2">Minas Gerais</td>
+        <td class="num">21 322 692</td>
+    </tr>
+    <tr>
+        <td class="numero3">Rio de Janeiro</td>
+        <td class="num">17 219 679</td>
+    </tr>
+    <tr>
+        <td class="numero1">São Paulo</td>
+        <td class="num">45 973 190</td>
+    </tr>
+    <tr>
+        <td class="numero2">Minas Gerais</td>
+        <td class="num">21 322 692</td>
+    </tr>
+    <tr>
+        <td class="numero3">Rio de Janeiro</td>
+        <td class="num">17 219 679</td>
+    </tr>
+</tbody>
+<tfoot>
+    <th>Total de habitantes</th>
+    <td class="num"><strong>84 515 561</strong></td>
+
+</tfoot>
+</table>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum optio necessitatibus dignissimos blanditiis reiciendis a totam maxime nostrum ipsam quisquam non quasi officiis natus. Odio suscipit voluptatum dolore numquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id magnam soluta perspiciatis odit voluptatem aspernatur eius repellat ducimus dicta fugiat sit et quaerat corporis, odio enim, illo saepe dolores! Autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere similique voluptatum suscipit at qui sunt vel magni nobis sit quibusdam labore non quidem, eius dolor perferendis quaerat! Maxime, suscipit ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima beatae, debitis natus omnis, expedita ullam earum mollitia sint sapiente delectus veniam quidem. Nulla est voluptatum minus, officiis ullam quam impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem blanditiis soluta ad perspiciatis doloribus, beatae quasi quam placeat maiores, fugiat necessitatibus tempora minima sapiente sequi vitae corrupti magni dicta quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex quidem facilis ducimus earum, deserunt voluptate labore dolorum ratione voluptas necessitatibus temporibus dolores at incidunt fugiat cum. Voluptatum, vero nobis?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum optio necessitatibus dignissimos blanditiis reiciendis a totam maxime nostrum ipsam quisquam non quasi officiis natus. Odio suscipit voluptatum dolore numquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id magnam soluta perspiciatis odit voluptatem aspernatur eius repellat ducimus dicta fugiat sit et quaerat corporis, odio enim, illo saepe dolores! Autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere similique voluptatum suscipit at qui sunt vel magni nobis sit quibusdam labore non quidem, eius dolor perferendis quaerat! Maxime, suscipit ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima beatae, debitis natus omnis, expedita ullam earum mollitia sint sapiente delectus veniam quidem. Nulla est voluptatum minus, officiis ullam quam impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem blanditiis soluta ad perspiciatis doloribus, beatae quasi quam placeat maiores, fugiat necessitatibus tempora minima sapiente sequi vitae corrupti magni dicta quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex quidem facilis ducimus earum, deserunt voluptate labore dolorum ratione voluptas necessitatibus temporibus dolores at incidunt fugiat cum. Voluptatum, vero nobis?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum optio necessitatibus dignissimos blanditiis reiciendis a totam maxime nostrum ipsam quisquam non quasi officiis natus. Odio suscipit voluptatum dolore numquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id magnam soluta perspiciatis odit voluptatem aspernatur eius repellat ducimus dicta fugiat sit et quaerat corporis, odio enim, illo saepe dolores! Autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere similique voluptatum suscipit at qui sunt vel magni nobis sit quibusdam labore non quidem, eius dolor perferendis quaerat! Maxime, suscipit ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima beatae, debitis natus omnis, expedita ullam earum mollitia sint sapiente delectus veniam quidem. Nulla est voluptatum minus, officiis ullam quam impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem blanditiis soluta ad perspiciatis doloribus, beatae quasi quam placeat maiores, fugiat necessitatibus tempora minima sapiente sequi vitae corrupti magni dicta quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex quidem facilis ducimus earum, deserunt voluptate labore dolorum ratione voluptas necessitatibus temporibus dolores at incidunt fugiat cum. Voluptatum, vero nobis?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum optio necessitatibus dignissimos blanditiis reiciendis a totam maxime nostrum ipsam quisquam non quasi officiis natus. Odio suscipit voluptatum dolore numquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id magnam soluta perspiciatis odit voluptatem aspernatur eius repellat ducimus dicta fugiat sit et quaerat corporis, odio enim, illo saepe dolores! Autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere similique voluptatum suscipit at qui sunt vel magni nobis sit quibusdam labore non quidem, eius dolor perferendis quaerat! Maxime, suscipit ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima beatae, debitis natus omnis, expedita ullam earum mollitia sint sapiente delectus veniam quidem. Nulla est voluptatum minus, officiis ullam quam impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem blanditiis soluta ad perspiciatis doloribus, beatae quasi quam placeat maiores, fugiat necessitatibus tempora minima sapiente sequi vitae corrupti magni dicta quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex quidem facilis ducimus earum, deserunt voluptate labore dolorum ratione voluptas necessitatibus temporibus dolores at incidunt fugiat cum. Voluptatum, vero nobis?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum optio necessitatibus dignissimos blanditiis reiciendis a totam maxime nostrum ipsam quisquam non quasi officiis natus. Odio suscipit voluptatum dolore numquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id magnam soluta perspiciatis odit voluptatem aspernatur eius repellat ducimus dicta fugiat sit et quaerat corporis, odio enim, illo saepe dolores! Autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere similique voluptatum suscipit at qui sunt vel magni nobis sit quibusdam labore non quidem, eius dolor perferendis quaerat! Maxime, suscipit ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima beatae, debitis natus omnis, expedita ullam earum mollitia sint sapiente delectus veniam quidem. Nulla est voluptatum minus, officiis ullam quam impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem blanditiis soluta ad perspiciatis doloribus, beatae quasi quam placeat maiores, fugiat necessitatibus tempora minima sapiente sequi vitae corrupti magni dicta quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex quidem facilis ducimus earum, deserunt voluptate labore dolorum ratione voluptas necessitatibus temporibus dolores at incidunt fugiat cum. Voluptatum, vero nobis?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum optio necessitatibus dignissimos blanditiis reiciendis a totam maxime nostrum ipsam quisquam non quasi officiis natus. Odio suscipit voluptatum dolore numquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id magnam soluta perspiciatis odit voluptatem aspernatur eius repellat ducimus dicta fugiat sit et quaerat corporis, odio enim, illo saepe dolores! Autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere similique voluptatum suscipit at qui sunt vel magni nobis sit quibusdam labore non quidem, eius dolor perferendis quaerat! Maxime, suscipit ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima beatae, debitis natus omnis, expedita ullam earum mollitia sint sapiente delectus veniam quidem. Nulla est voluptatum minus, officiis ullam quam impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem blanditiis soluta ad perspiciatis doloribus, beatae quasi quam placeat maiores, fugiat necessitatibus tempora minima sapiente sequi vitae corrupti magni dicta quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex quidem facilis ducimus earum, deserunt voluptate labore dolorum ratione voluptas necessitatibus temporibus dolores at incidunt fugiat cum. Voluptatum, vero nobis?</p>
+
+
+
+</body>
+</html>
