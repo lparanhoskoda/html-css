@@ -9,11 +9,11 @@
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
         <p><label for="insu">Usuário:</label>
-            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="30" size="10" placeholder="nome do Usuário">
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="30" size="10" placeholder="nome do Usuário" autocomplete="username">
         </p>
         <p>
             <label for="isen">Senha:</label>
-            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="3">
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="3" autocomplete="current-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
